@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/items/items",
+        "pages/login/login",
+        "pages/itemInfo/itemInfo",
+        "pages/order/order",
+        "pages/index/index",
+        "pages/my/index"
+        
+    ],
+    "window": {
+        "backgroundTextStyle": "white",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "佰露集微商城",
+        "navigationBarBackgroundColor": "#35B6DD",
+        "backgroundColor": "#35B6DD",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "color": "#b1b1b1",
+        "selectedColor": "#35B6DD",
+        "borderStyle": "#ffffff",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/items/items",
+                "iconPath": "images/footer-icon-01.png",
+                "selectedIconPath": "images/footer-icon-01-active.png",
+                "text": "拼团列表"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "iconPath": "images/footer-icon-04.png",
+                "selectedIconPath": "images/footer-icon-04-active.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

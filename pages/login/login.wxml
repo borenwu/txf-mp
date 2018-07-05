@@ -1,0 +1,5 @@
+<view>
+    <input placeholder="username" auto-focus bindinput ="userNameInput"/>
+    <input placeholder="password" auto-focus bindinput="passWdInput"/>
+    <button bindtap='handleLogin'>log in</button>
+</view>

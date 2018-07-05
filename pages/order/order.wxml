@@ -1,0 +1,17 @@
+<view class="container">
+    <text class="hint">修改账户登录信息</text>
+    <view class="form-wrap">
+        <view class="flex-wrap input-wrap">
+            <!-- <text class="label">用户名</text> -->
+            <input class="account-info-input" placeholder='用户名'/>
+        </view>
+        <view class="flex-wrap input-wrap">
+            <text class="label">新密码</text>
+            <input password bindinput="updatePassword" id="password" class="account-info-input" />
+        </view>
+    </view>
+    <text wx:if="{{error}}" class="error">{{error}}</text>
+    <view class="fix-btns">
+        <button class="buy-btn" type='primary' bindtap="createOrder">微信支付</button>
+    </view>
+</view>

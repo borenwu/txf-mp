@@ -1,0 +1,11 @@
+<view class="container">
+    <view wx:for="{{itemList}}" class="product" >
+        <navigator url="{{item.link}}">
+            <image  src="{{item.fileList[0].url}}" class="pro-image" mode="widthFix" />
+            <view class="prod-content">
+                <text class="prod-title">{{item.title}}</text>
+                <text class="prod-money">特惠价：{{item.sale_price}} 元</text>
+            </view>
+        </navigator>
+    </view>
+</view>
